@@ -40,5 +40,5 @@ jobs:
     - name: Upload coverage to Codecov
       uses: codecov/codecov-action@v3
       with:
-        token: ${{ secrets.CODECOV_TOKEN }}  # 使用 GitHub Secrets 中的 Codecov 令牌
+        token: ${{ secrets.CODECOV_TOKEN }}
         files: coverage.xml
