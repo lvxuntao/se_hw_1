@@ -1,6 +1,6 @@
 # test_remove_element.py
 import pytest
-from your_code_file import removeElement  # 替换为实际的代码文件名
+from myfile import removeElement  # 替换为实际的代码文件名
 
 def test_remove_element_success():
     nums = [1, 2, 3, 4, 5, 6]
