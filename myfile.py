@@ -1,6 +1,6 @@
 def removeElement(nums, val) -> int:
-        p_num = 0
-        while(p_num <= len(nums)):
+        p_num = 1
+        while(p_num < len(nums)):
             if nums[p_num] == val:
                 nums.remove(val)
             else:
